@@ -3,7 +3,7 @@ package Module1;
 import org.testng.annotations.Test;
 
 public class CreateorgTest {
-	@Test(groups = "smoketest,Regressiontest")
+	@Test(groups ="Smoketest")
 	public void orgTest() {
 		String BROWSER = System.getProperty("browser");
 		String URL = System.getProperty("url");
@@ -25,7 +25,7 @@ public class CreateorgTest {
 		
 		
 	}
-@Test(groups = "smoketest,Regressiontest")
+@Test(groups ="Smoketest")
 public void orgWithTypeTest() {
 	System.out.println("launch browser");
 	System.out.println("login");
