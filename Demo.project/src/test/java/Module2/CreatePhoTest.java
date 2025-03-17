@@ -3,7 +3,7 @@ package Module2;
 import org.testng.annotations.Test;
 
 public class CreatePhoTest {
-	@Test(groups = "Regressiontest")
+	@Test
 	public void phoneTest() {
 		System.out.println("launch browser");
 		System.out.println("login");
@@ -13,7 +13,7 @@ public class CreatePhoTest {
 		System.out.println("log out ");
 		System.out.println("=============================================");
 	}
-@Test(groups = "Regressiontest")
+@Test
 public void phoneWithCalTest() {
 	System.out.println("launch browser");
 	System.out.println("login");
