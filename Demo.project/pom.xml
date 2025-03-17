@@ -87,7 +87,7 @@
         <version>3.5.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testgn_RT.xml</suiteXmlFile>
+            <suiteXmlFile>testng_RT.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
