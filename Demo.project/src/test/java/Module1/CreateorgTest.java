@@ -23,6 +23,16 @@ public void orgWithTypeTest() {
 	System.out.println("click on new org with type");
 	System.out.println("org type created success");
 	System.out.println("log out ");
+	System.out.println("=============================================");
+	
 }
-
+ @Test
+public void deletorgTest() {
+	System.out.println("launch browser");
+	System.out.println("login");
+	System.out.println("home page");
+	System.out.println("click on new org with type");
+	System.out.println("org type created success");
+	System.out.println("log out ");
+}
 }
